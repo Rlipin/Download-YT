@@ -12,6 +12,7 @@ from tkinter import filedialog, messagebox, ttk
 app = Tk()
 app.title('Download Vídeo')
 app.geometry("400x160")
+app.config(background="#fff")
 
 progress_bar = DoubleVar()
 progress_bar.set(0)
